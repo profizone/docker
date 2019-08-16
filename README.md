@@ -22,12 +22,15 @@ docker start kali-desktop
 docker stop kali-desktop
 ```
 
-```Python
-# remove docker image
+```Python               
+# remove docker image 
 docker rmi my-kali
 
-#remove docker container
+#remove docker container by name
 docker rm my-kali
+
+#remove docker container by id
+docker rm  61206fe42352   
 ```
 
 
