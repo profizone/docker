@@ -33,6 +33,10 @@ docker rm my-kali
 docker rm  61206fe42352   
 ```
 
+```Python
+# create container based on image: yoshiqui/kali-desktop and give container a name: kali-dekstop    
+docker run -d -p 6080:6080 --name kali-desktop yoshiqui/kali-desktop:xfce
+```
 
 
 
