@@ -4,17 +4,17 @@ List of Docker related resources such as: commands, links, images, Dockerfiles e
 
 ### Docker Commands
 
-```Python
+```Shell
 # list all containers - including stopped ones
 docker ps -a
 ```
 
-```Python
+```Shell
 # list all docker images
 docker images
 ```
 
-```Python
+```Shell
 # start docker container with a given name
 docker start kali-desktop
 
@@ -22,7 +22,7 @@ docker start kali-desktop
 docker stop kali-desktop
 ```
 
-```Python               
+```Shell               
 # remove docker image 
 docker rmi my-kali
 
@@ -33,10 +33,11 @@ docker rm my-kali
 docker rm  61206fe42352   
 ```
 
-```Python
+```Shell
 # create container based on image: yoshiqui/kali-desktop and give container a name: kali-dekstop    
 docker run -d -p 6080:6080 --name kali-desktop yoshiqui/kali-desktop:xfce
 ```
 
 
 
+        
