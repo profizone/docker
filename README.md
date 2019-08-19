@@ -4,12 +4,12 @@ List of Docker related resources such as: commands, links, images, Dockerfiles e
 
 ### Docker Commands
 
-```Shell
+```Python
 # list all containers - including stopped ones
 docker ps -a
 ```
 
-```Shell
+```Python       
 # list all docker images
 docker images
 ```
